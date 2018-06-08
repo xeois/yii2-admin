@@ -203,9 +203,13 @@ class MenuHelper
                 } else {
                     $item = [
                         'label' => $menu['name'],
+                        'icon'=>$menu['icon'],
+                        'color'=>$menu['color'],
                         'url' => static::parseRoute($menu['route']),
                     ];
                     if ($menu['children'] != []) {
+                        $item['icon'] = $menu['icon'];
+                        $item['color'] = $menu['color'];
                         $item['items'] = $menu['children'];
                     }
                 }
