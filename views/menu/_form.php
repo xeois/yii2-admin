@@ -33,6 +33,11 @@ $this->registerJs($this->render('_script.js'));
             <?= $form->field($model, 'order')->input('number') ?>
 
             <?= $form->field($model, 'data')->textarea(['rows' => 4]) ?>
+                
+            <?= $form->field($model, 'icon')->textInput() ?>
+
+            <?= $form->field($model, 'color')->textInput()  ?>
+
         </div>
     </div>
 
