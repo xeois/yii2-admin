@@ -73,3 +73,5 @@ return [
 [**More...**](docs/guide/configuration.md)
 
 [screenshots](https://goo.gl/r8RizT)
+
+Added icon and color option
